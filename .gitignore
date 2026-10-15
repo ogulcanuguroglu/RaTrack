@@ -12,3 +12,10 @@ checkpoints/
 results_track4d_radar/
 vod_vis_lidar/
 vod_vis_radar/
+__pycache__/
+*.egg-info/
+src/lib/dist/
+src/lib/build/
+src/checkpoints/
+src/results/
+src/results_vis/

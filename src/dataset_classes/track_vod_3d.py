@@ -33,7 +33,8 @@ class TrackingDataVOD(Dataset):
 
         test = ['delft_7','delft_8','delft_16','delft_18','delft_20','delft_21','delft_25']
         val = ['delft_1','delft_10','delft_14','delft_22']
-        train = ['delft_2','delft_3','delft_4','delft_6','delft_9','delft_11','delft_12','delft_13','delft_19','delft_23','delft_24','delft_26','delft_27']
+        # SMOKE-TEST: original -> train = ['delft_2','delft_3','delft_4','delft_6','delft_9','delft_11','delft_12','delft_13','delft_19','delft_23','delft_24','delft_26','delft_27']
+        train = ['delft_27']
         self.clips_dir = "./clips"
 
         if self.eval:
