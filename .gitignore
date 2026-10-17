@@ -19,3 +19,4 @@ src/lib/build/
 src/checkpoints/
 src/results/
 src/results_vis/
+src/result/smoke_test/
